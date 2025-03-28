@@ -1,0 +1,30 @@
+linko-web\index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Plinko Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>PLINKO</h1>
+        <div class="score">Balance: 200</div>
+        <button id="dropButton" class="drop-button">DROP BALL (-10)</button>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+
+    <!-- Load utils first -->
+    <script src="js/utils.js"></script>
+    
+    <!-- Load classes -->
+    <script src="js/classes/Peg.js"></script>
+    <script src="js/classes/Divider.js"></script>
+    <script src="js/classes/Ball.js"></script>
+    <script src="js/classes/Bin.js"></script>
+    
+    <!-- Main game file -->
+    <script src="js/game.js"></script>
+</body>
+</html>
