@@ -1,6 +1,6 @@
 # Plinko Web Game
 
-Welcome to the Plinko Web Game! This project is a web-based adaptation of the classic Plinko game, where players can drop balls onto a board filled with pegs and score points by landing in bins.
+Welcome to the Plinko Web Game! This project is a web-based adaptation of the classic Plinko game, where players can drop balls onto a board filled with pegs and score points by landing in bins. https://amkdcabanek.github.io/PLINKO/
 
 ## Project Structure
 
